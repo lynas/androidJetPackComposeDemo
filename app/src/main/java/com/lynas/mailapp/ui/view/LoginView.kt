@@ -21,8 +21,6 @@ import com.lynas.mailapp.VIEW_HOME
 
 @Composable
 fun LoginView(navHostController: NavHostController) {
-    val viewName = "LoginView"
-
     var userName by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
     Column(

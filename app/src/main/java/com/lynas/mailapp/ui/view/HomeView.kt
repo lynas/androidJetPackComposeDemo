@@ -11,7 +11,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun HomeView(username: String) {
+fun HomeView(username: String?) {
 
     Column(
         modifier = Modifier.fillMaxSize(),
