@@ -61,7 +61,7 @@ fun LoginView(navHostController: NavHostController) {
             onClick = {
                 println(userName)
                 println(password)
-                navHostController.navigate(VIEW_HOME)
+                navHostController.navigate(route = "$VIEW_HOME/$userName")
             },
             modifier = Modifier.padding(16.dp),
 
